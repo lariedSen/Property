@@ -1,0 +1,269 @@
+/*=================================================================*/
+/*    公共设置      */
+
+QLineEdit
+{
+    border-width: 2px;/*边框宽度为4像素*/
+    border-radius: 10px;/*边框圆角半径*/
+    border-color: rgba(143, 177, 255, 50);/*边框颜色*/
+    font: 14pt "Adobe Devanagari"; /*字体*/
+    color:rgba(255, 62, 56,150); /*字体颜色*/
+}
+
+
+QGroupBox
+{
+     background-color: rgba(208, 223, 219,125);
+     border-style: inset; /*边框样式*/
+     border-radius: 6px;/*边框圆角半径*/
+     border-color: rgba(143, 17, 255, 50);/*边框颜色*/
+    padding: 2px;/*填衬*/
+}
+
+
+/*=================================================================*/
+
+/*MainWindow的皮肤样式  */
+QMainWindow
+{
+    /* 背景随着部件的大小变化     */
+    border-image: url(:/pic/pro/group.jpg);
+}
+
+QLabel#label_calu
+{
+    /*背景色*/
+    background-color: rgba(93, 97, 170,200);
+
+    /*边框样式*/
+    border-style: inset;
+
+    /*边框宽度为4像素*/
+    border-width: 4px;
+
+    /*边框圆角半径*/
+    border-radius: 6px;
+
+    /*边框颜色*/
+    border-color: rgba(255, 225, 255, 30);
+
+    /*字体*/
+    font: 14pt "Adobe Devanagari";
+
+    /*字体颜色*/
+    color:rgba(0, 0, 0, 100);
+
+    /*填衬*/
+    padding: 6px;
+}
+
+/*==================================================================*/
+/* login 窗口的 皮肤样式  */
+
+QLabel#label_info
+{
+    /*背景色*/
+    background-color: rgba(93, 97, 170,200);
+
+    /*边框样式*/
+    border-style: outset;
+
+    /*边框宽度为4像素*/
+    border-width: 2px;
+
+    /*边框圆角半径*/
+    border-radius: 4px;
+
+    /*边框颜色*/
+    border-color: rgba(143, 177, 255, 50);
+
+    /*字体*/
+    font: 16pt "Adobe Devanagari";
+
+    /*字体颜色*/
+    color:rgb(170, 0, 0);
+
+    /*填衬*/
+    padding: 3px;
+}
+
+
+QPushButton#pushButton_password_login
+{
+    /*背景色*/
+    background-color: rgba(221, 255, 250,200);
+
+    /*边框样式*/
+    border-style: inset;
+
+    /*边框宽度为4像素*/
+    border-width: 4px;
+
+    /*边框圆角半径*/
+    border-radius: 6px;
+
+    /*边框颜色*/
+    border-color: rgba(255, 225, 255, 30);
+
+    /*字体*/
+    font: 14pt "Adobe Devanagari";
+
+    /*字体颜色*/
+    color:rgba(0, 0, 0, 200);
+
+    /*填衬*/
+    padding: 6px;
+}
+
+
+/*==================================================================*/
+/* 密码登陆  */
+
+QLabel#label_passTitle
+{
+    background-color: rgba(166, 229, 255,30);/*背景色*/
+    border-style: outset;/*边框样式*/
+    border-width: 4px;/*边框宽度为4像素*/
+    border-radius: 5px; /*边框圆角半径*/
+    border-color: rgba(143, 177, 255, 50);/*边框颜色*/
+    font: 16pt "Adobe Devanagari";/*字体*/
+    color:rgba(255, 62, 56,150);/*字体颜色*/
+    padding: 2px; /*填衬*/
+}
+
+QPushButton#pushButton_reg,QPushButton#pushButton_person,QPushButton#pushButton_return,
+QPushButton#pushButton_login ,QPushButton#pushButton_password
+{
+    background-color: rgba(221, 255, 250,200);/*背景色*/
+    border-style: inset;/*边框样式*/
+    border-width: 4px;/*边框宽度为4像素*/
+    border-radius: 6px;/*边框圆角半径*/
+    border-color: rgba(255, 225, 255, 30);/*边框颜色*/
+    font: 14pt "Adobe Devanagari";/*字体*/
+    color:rgba(0, 0, 0, 200); /*字体颜色*/
+    padding: 2px; /*填衬*/
+}
+
+/*===============================================================*/
+/*  注册 窗口的 皮肤样式    */
+QLabel#label_regiter_pass   , QLabel#label_reg_ka ,
+QLabel#label_reg_id,QLabel#label_regiter_name, QLabel#label
+{
+    background-color: rgba(231, 255, 152,30);/*背景色*/
+    border-style: inset;/*边框样式*/
+    border-width: 2px;/*边框宽度为4像素*/
+    border-radius: 5px; /*边框圆角半径*/
+    border-color: rgba(143, 177, 255, 50);/*边框颜色*/
+    font: 16pt "Adobe Devanagari";/*字体*/
+    color:rgba(255, 62, 56,150);/*字体颜色*/
+    padding: 2px; /*填衬*/
+}
+
+QPushButton#pushButton__cancel,QPushButton#pushButton_ok
+{
+    background-color: rgba(221, 255, 250,200);/*背景色*/
+    border-style: inset;/*边框样式*/
+    border-width: 4px;/*边框宽度为4像素*/
+    border-radius: 6px;/*边框圆角半径*/
+    border-color: rgba(255, 225, 255, 30);/*边框颜色*/
+    font: 14pt "Adobe Devanagari";/*字体*/
+    color:rgba(0, 0, 0, 200); /*字体颜色*/
+    padding: 4px; /*填衬*/
+}
+
+
+/*===============================================================*/
+/*  主程序一级窗口的 皮肤样式    */
+QLabel#label_regiter_pass   , QLabel#label_reg_ka ,
+QLabel#label_reg_id,QLabel#label_regiter_name, QLabel#label
+{
+    background-color: rgba(231, 255, 152,30);/*背景色*/
+    border-style: inset;/*边框样式*/
+    border-width: 2px;/*边框宽度为4像素*/
+    border-radius: 5px; /*边框圆角半径*/
+    border-color: rgba(143, 177, 255, 50);/*边框颜色*/
+    font: 16pt "Adobe Devanagari";/*字体*/
+    color:rgba(255, 62, 56,150);/*字体颜色*/
+    padding: 2px; /*填衬*/
+}
+
+QPushButton#pushButton_ok , QPushButton#pushButton_cancel
+{
+    background-color: rgba(221, 255, 250,200);/*背景色*/
+    border-style: inset;/*边框样式*/
+    border-width: 4px;/*边框宽度为4像素*/
+    border-radius: 6px;/*边框圆角半径*/
+    border-color: rgba(255, 225, 255, 30);/*边框颜色*/
+    font: 14pt "Adobe Devanagari";/*字体*/
+    color:rgba(0, 0, 0, 200); /*字体颜色*/
+    padding: 4px; /*填衬*/
+}
+
+/*===============================================================*/
+/*  主程序一级窗口的 皮肤样式    */
+ QLabel#label_city ,QLabel#label_weather,
+QLabel#label_date , QLabel#label_hemidity ,
+QLabel#label_temperature , QLabel#label_time
+{
+    background-color: rgba(114, 127, 103,120);/*背景色*/
+    border-style: inset;/*边框样式*/
+    border-width: 2px;/*边框宽度为4像素*/
+    border-radius: 4px; /*边框圆角半径*/
+    border-color: rgba(143, 177, 255, 70);/*边框颜色*/
+    font: 16pt "Adobe Devanagari";/*字体*/
+    color:rgba(0, 0, 97,180);/*字体颜色*/
+    padding: 2px; /*填衬*/
+}
+
+QLabel#label_gun_advert
+{
+    background-color: rgba(211, 199, 255,180);/*背景色*/
+    border-style: inset;/*边框样式*/
+    border-width: 5px;/*边框宽度为4像素*/
+    border-radius: 10px; /*边框圆角半径*/
+    border-color: rgba(143, 127, 235, 50);/*边框颜色*/
+    font: 16pt "Adobe Devanagari";/*字体*/
+    color:rgba(255, 20, 82,150);/*字体颜色*/
+    padding: 2px; /*填衬*/
+
+}
+
+QPushButton#lighting_btn , QPushButton#openCar_btn,
+QPushButton#property_btn , QPushButton#close_btn
+{
+    background-color: rgba(221, 255, 250,150);/*背景色*/
+    border-style: inset;/*边框样式*/
+    border-width: 4px;/*边框宽度为4像素*/
+    border-radius: 6px;/*边框圆角半径*/
+    border-color: rgba(255, 225, 255, 30);/*边框颜色*/
+    font: 14pt "Adobe Devanagari";/*字体*/
+    color:rgba(255, 20, 82, 200); /*字体颜色*/
+    padding: 4px; /*填衬*/
+}
+
+/*=================================*/
+/*物业服务*/
+QLabel#label_property_head , QLabel#label_2,QLabel#label_3,QLabel#label_4
+{
+    background-color: rgba(211, 199, 255,130);/*背景色*/
+    border-style: outset;/*边框样式*/
+    border-width: 3px;/*边框宽度为4像素*/
+    border-radius: 5px; /*边框圆角半径*/
+    border-color: rgba(149, 147, 222, 70);/*边框颜色*/
+    font: 16pt "Adobe Devanagari";/*字体*/
+    color:rgba(255, 65, 244,150);/*字体颜色*/
+    padding: 2px; /*填衬*/
+}
+
+QPushButton#pushButton_property_return,
+QPushButton#pushButton_property
+{
+    background-color: rgba(221, 255, 250,150);/*背景色*/
+    border-style: inset;/*边框样式*/
+    border-width: 4px;/*边框宽度为4像素*/
+    border-radius: 6px;/*边框圆角半径*/
+    border-color: rgba(255, 225, 255, 30);/*边框颜色*/
+    font: 14pt "Adobe Devanagari";/*字体*/
+    color:rgba(255, 40, 82, 200); /*字体颜色*/
+    padding: 4px; /*填衬*/
+}

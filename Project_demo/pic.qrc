@@ -1,0 +1,30 @@
+<RCC>
+    <qresource prefix="/pic">
+        <file>pro/2.jpg</file>
+        <file>pro/group.jpg</file>
+        <file>pro/showId.jpg</file>
+        <file>pro/cancel.png</file>
+        <file>pro/please.jpg</file>
+        <file>pro/login.jpg</file>
+        <file>pro/pass.png</file>
+        <file>pro/person.png</file>
+        <file>pro/reg.jpg</file>
+        <file>pro/frist3.jpg</file>
+        <file>pro/hhb.jpg</file>
+        <file>pro/hha.jpg</file>
+        <file>pro/gufeng.jpg</file>
+        <file>pro/4.jpg</file>
+        <file>pro/hh888.jpg</file>
+        <file>pro/return.png</file>
+    </qresource>
+    <qresource prefix="/advert">
+        <file>pro/nice.mp4</file>
+    </qresource>
+    <qresource prefix="/">
+        <file>weather/duoyun.png</file>
+        <file>weather/qing.png</file>
+        <file>weather/rain.png</file>
+        <file>weather/xue.png</file>
+        <file>weather/wea_no.png</file>
+    </qresource>
+</RCC>
